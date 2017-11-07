@@ -1,4 +1,4 @@
 # Translate Application
 
-![](http://media.giphy.com/media/GuDQNjS0qJHpe/200.gif)
+![](https://raw.githubusercontent.com/oznurAkgun/TranslateApplication/master/ezgif-5-114dd76a56.gif)
 
