@@ -1,0 +1,9 @@
+{
+  "commitish" : "0.3.0",
+  "iOS" : [
+    {
+      "hash" : "2de3d395d262a6f68cdef9fa97b7a1cddde0280d99b60612b5724d4413dd3e00",
+      "name" : "AnimatedCollectionViewLayout"
+    }
+  ]
+}

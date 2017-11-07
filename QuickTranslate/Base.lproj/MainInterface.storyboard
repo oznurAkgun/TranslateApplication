@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="j1y-V4-xli">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Share View Controller-->
+        <scene sceneID="ceB-am-kn3">
+            <objects>
+                <viewController id="j1y-V4-xli" customClass="ShareViewController" customModule="QuickTranslate" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8bI-gs-bmD"/>
+                        <viewControllerLayoutGuide type="bottom" id="d5i-Ba-RvD"/>
+                    </layoutGuides>
+                    <view key="view" opaque="NO" contentMode="scaleToFill" id="wbc-yd-nQP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cek-Q8-6Lc">
+                                <rect key="frame" x="37" y="243" width="301" height="181"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R37-r2-5Mm">
+                                        <rect key="frame" x="50" y="146" width="201" height="30"/>
+                                        <state key="normal" title="Tamam"/>
+                                        <connections>
+                                            <action selector="dismissPopUp:" destination="j1y-V4-xli" eventType="touchUpInside" id="SIS-xb-gWD"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yen-K2-Ud5">
+                                        <rect key="frame" x="89" y="74" width="122" height="33"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="0.85796270240000005" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="yen-K2-Ud5" firstAttribute="centerX" secondItem="cek-Q8-6Lc" secondAttribute="centerX" id="0CK-SX-OXZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="R37-r2-5Mm" secondAttribute="trailing" constant="50" id="CQQ-O6-jZg"/>
+                                    <constraint firstAttribute="bottom" secondItem="R37-r2-5Mm" secondAttribute="bottom" constant="5" id="Irc-ZE-6df"/>
+                                    <constraint firstItem="R37-r2-5Mm" firstAttribute="leading" secondItem="cek-Q8-6Lc" secondAttribute="leading" constant="50" id="P5O-fO-YNG"/>
+                                    <constraint firstItem="yen-K2-Ud5" firstAttribute="centerY" secondItem="cek-Q8-6Lc" secondAttribute="centerY" id="act-2H-GtN"/>
+                                    <constraint firstItem="yen-K2-Ud5" firstAttribute="width" secondItem="cek-Q8-6Lc" secondAttribute="width" id="bPv-Xl-l0u"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cek-Q8-6Lc" firstAttribute="centerX" secondItem="wbc-yd-nQP" secondAttribute="centerX" id="7fk-9c-d30"/>
+                            <constraint firstItem="cek-Q8-6Lc" firstAttribute="centerY" secondItem="wbc-yd-nQP" secondAttribute="centerY" id="Rie-pe-nA1"/>
+                            <constraint firstItem="cek-Q8-6Lc" firstAttribute="top" secondItem="8bI-gs-bmD" secondAttribute="bottom" constant="223" id="Vel-0f-i4B"/>
+                            <constraint firstItem="cek-Q8-6Lc" firstAttribute="leading" secondItem="wbc-yd-nQP" secondAttribute="leadingMargin" constant="21" id="dyP-Qa-Wqt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="popupView" destination="cek-Q8-6Lc" id="2tl-nb-gGQ"/>
+                        <outlet property="text" destination="yen-K2-Ud5" id="hA8-Xe-uL8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CEy-Cv-SGf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="179.46026986506749"/>
+        </scene>
+    </scenes>
+</document>

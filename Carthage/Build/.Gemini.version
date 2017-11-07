@@ -1,0 +1,9 @@
+{
+  "commitish" : "1.1.2",
+  "iOS" : [
+    {
+      "hash" : "a892184662d71448678ad6560464583fe2ccdd1df2da38e5a6f5ff625a33c54a",
+      "name" : "Gemini"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "commitish" : "v1.6.1",
+  "iOS" : [
+    {
+      "hash" : "292757c5ffe79a5b284392cfb33c9510d3fedee26dd689a347dba67f5560bc9b",
+      "name" : "SwiftGif"
+    }
+  ]
+}

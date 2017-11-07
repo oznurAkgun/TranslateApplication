@@ -1,0 +1,11 @@
+framework module Gemini {
+  umbrella header "Gemini-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Gemini.Swift {
+    header "Gemini-Swift.h"
+    requires objc
+}

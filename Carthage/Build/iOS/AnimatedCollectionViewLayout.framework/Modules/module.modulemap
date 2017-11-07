@@ -1,0 +1,11 @@
+framework module AnimatedCollectionViewLayout {
+  umbrella header "AnimatedCollectionViewLayout.h"
+
+  export *
+  module * { export * }
+}
+
+module AnimatedCollectionViewLayout.Swift {
+    header "AnimatedCollectionViewLayout-Swift.h"
+    requires objc
+}
